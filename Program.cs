@@ -28,9 +28,6 @@ namespace gesoLauncher
         static void Main(string[] args)
         {
             if (args.Length == 0) return;
-            //Process curProcess = Process.GetCurrentProcess();
-            //AppPath = curProcess.MainModule.FileName;
-            //AppPath = Application.ExecutablePath;
             AppPath = Assembly.GetEntryAssembly().Location;
             //ディレクトリ
             AppDir = Path.GetDirectoryName(AppPath);
