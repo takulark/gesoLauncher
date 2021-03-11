@@ -1,0 +1,25 @@
+[Default]
+str0=http
+exe0=gesobrowser-Trident.exe
+str1=sengoku://
+str2=loa3mclient://
+str3=loas2mclient://
+str4=roadclient://
+str5=dragonAwaken:
+str6=DragonMiniClient:url=
+str7=
+exe1=sengokugifu.exe
+exe2=lao3.exe
+exe3=lao2.exe
+exe4=wef.x64-87.exe
+exe5=
+exe6=C:\Users\lark\Downloads\FirefoxPortable\App\firefox64\firefox.exe
+env6=-profile C:\Users\lark\Downloads\FirefoxPortable\Data\profile
+del6=1
+#exe3=C:\Users\lark\Downloads\FirefoxPortable\App\firefox64\firefox.exe
+#env3=-profile C:\Users\lark\Downloads\FirefoxPortable\Data\profile
+env3=tabcnt=2
+#del3=1
+#exe4=C:\Users\lark\Downloads\FirefoxPortable\App\firefox64\firefox.exe
+#env4=-profile C:\Users\lark\Downloads\FirefoxPortable\Data\profile
+#del4=1
