@@ -116,7 +116,7 @@ namespace gesoLauncher
             private bool IndexOfAny(string x)
             {
                 string[] c = new string[] {
-                    "Windows", "cmd.exe", "cmd ", "diskpart.exe", "diskpart ", "format"
+                    "Windows", "cmd.exe", "cmd ", "diskpart", "format"
                     //, null
                 };
                 foreach (string s in c)
@@ -136,9 +136,12 @@ namespace gesoLauncher
                     if (string.IsNullOrEmpty(x)) { x = ""; break; }
                     if (x.Length != 0)
                     {
-                        if (x.IndexOf("-profile", StringComparison.CurrentCultureIgnoreCase) == -1)
-                        { x = ""; break; }
-                        x += " ";
+                        if (x.IndexOf("-profile", StringComparison.CurrentCultureIgnoreCase) != -1||
+                            x.IndexOf("tabcnt", StringComparison.CurrentCultureIgnoreCase) != -1)
+                        {
+                            x += " ";break;
+                        }
+                        x = "";
                     }
                     break;
                 }
